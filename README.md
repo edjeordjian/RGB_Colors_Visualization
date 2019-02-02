@@ -6,9 +6,10 @@ To arbitrarily reduce resource demand, you can increase the 'step' for showing c
 
 For example, using a step of 65536 would make the script end in less than a minute (for most PCs), but you would lose a lot of colors.
 
-# How do I run this? 
+# How do I run it? 
 For example, with WAMP (on Windows), LAMP (on Linux) or MAMP (on Mac) and any browser (Chrome, Firefox, Edge, Safari, Opera...). There are a lot of other options.
 
-Preview:
+# Preview
+
 ![alt text](https://cdn-std.dprcdn.net/files/acc_709240/fd0hGL)
 ![alt text](https://cdn-std.dprcdn.net/files/acc_709240/QnGahK)
