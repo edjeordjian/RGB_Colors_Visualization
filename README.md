@@ -1,6 +1,6 @@
 # RGB Colors Visualization
 
-Really basic PHP script for visualzing colors through the Hex RGB system used in HTML. It may consume a lot of resources, and it may take some minutes to finish (obviously is completely computer dependent, but that may apply to the majority of common PCs). 
+Really basic PHP script for visualzing colors through the Hex RGB system used in HTML. It may take some minutes to finish (obviously is completely computer dependent, but that may apply to the majority of common PCs). 
 
 To arbitrarily reduce resource demand, you can increase the 'step' for showing colors (really encouraged: always use a power of 2 as step), although it will reduce the effect of the visualization (i.e., it would look less appealing).
 
