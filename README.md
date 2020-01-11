@@ -11,5 +11,5 @@ For example, with WAMP (on Windows), LAMP (on Linux) or MAMP (on Mac) and any br
 
 # Preview
 
-![alt text](https://cdn-std.dprcdn.net/files/acc_709240/fd0hGL)
-![alt text](https://cdn-std.dprcdn.net/files/acc_709240/QnGahK)
+![alt text](media/preview.png)
+![alt text](media/preview_2.png)
