@@ -11,15 +11,15 @@
 <BODY>
 	
 	<p>
-	The human eye can percieve about 1 millon colors. However, Hex RGB system used on HTML can show exactly 6^15 = 16777216 different colors. Even if you were a tetrachromat, probably you would not be able to percieve the difference between all of them (because not all of them are variantions of red).
+	Hex RGB system used on HTML can show 6^15 = 16777216 different colors.  However, an average human eye can only percieve about one millon colors. Even for tetrachromats, it is not possible to percieve the difference between most of them (because not all of them are variantions of red).
 	</p>
 	
 	<p>
-	That's why the result of this script does not show every RGB color, but only near 500000 colors (and also because the browser would hang by just trying to show about 100000 in the actual state of the script). Anyway, optimizing the script would probably not make any appreciable difference in the visualization. 
+	That's why the result of this script does not show every RGB color, but only near 500000 colors (and also because the browser would hang by just trying to show about 100000, according to the structure of the script).  
 	</p>
 	
 	<p> 
-	Do not expect a 'rainbow effect' on the visualization: black, grey and white 'variants' are beign shown, and remember that a matrix (2D object) is beign used to show a representative number of the colors available by Hex RGB (which is 3D, because every color is represented through 3 coordinates).
+	Do not expect a 'rainbow effect' on the visualization black, grey and white colors are beign shown, and a matrix (2D) is used to show the visualization (since the Hex RGB system is 3D, because every color is represented through 3 coordinates, a sequential iteration through the codes won't show a 'rainbow').
 	</p>
 	
 	<TABLE style="display: inline-block;">
@@ -55,7 +55,7 @@
 			}
 
 			$description = "";
-			$lineLen = 16; /* Changing this number might get the visualization worse */
+			$lineLen = 16; /* Changing this number might make the visualization worse */
 			$colorCount = 16777216; /* Increasing this number would cause colors repetition */
 			$colorWid = "50";
 			$colorHei = "50";
@@ -69,7 +69,7 @@
 			
 			for ($i = 0; $i <= $colorCount; $i++) {
 				$color = (string)dechex($i);
-				/* The following format is mandatory for a correct visualization in HTML */
+				/* The following format is used for a correct visualization in HTML */
 				$colorHexCode = "#" . addZeroes($color) . $color; 
 				$description = $colorHexCode;
 				
